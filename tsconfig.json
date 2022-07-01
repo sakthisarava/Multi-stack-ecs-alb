@@ -23,6 +23,10 @@
       "./node_modules/@types"
     ]
   },
+  "typedocOptions": {
+    "entryPoints": ["src"],
+    "out": "docs"
+  },
   "exclude": [
     "node_modules",
     "cdk.out"
